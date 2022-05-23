@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Kanit', sans-serif;
+ font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #131313;
+
+}
+.container{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    background-color: #131313;
+    padding-left:6%;
+    padding-right:6%;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.fa-gem{
+    font-size: 40px;
+}
+nav div p{
+    font-size: 30px;
+}
+nav ul li a{
+color:aliceblue;
+font-size: 25px;
+margin: auto 15px;
+}
+nav div p{
+    color:crimson;
+    font-size: 25px;
+    margin: auto 15px;
+    }
+    .signup{
+        width: 130px ;
+        height: 50px;
+        background-color: crimson;
+        display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+    }
+    .meniu{
+        display: none;
+    }
+    .fa-bars{
+        
+        color: crimson;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+    .nav_buttom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    .child1{
+        background: rgb(238,161,179);
+        background: linear-gradient(170deg, rgba(238,161,179,1) 0%, rgb(240, 145, 135) 50%,rgba(253,65,45,1) 100%);
+        font-size: 70px;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+    }
+    .child2{
+       
+ 
+         font-size: 70px;
+         
+         background: rgb(114,178,237);
+         background: linear-gradient(180deg, rgb(79, 180, 248) 0%, rgb(92, 31, 133) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         font-family: 'Kanit', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 800;
+     }
+     .child3{
+       
+ 
+        font-size: 30px;
+        
+        color:azure;
+        
+    
+        font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+    }
+     .nav_button-text{
+         margin:10px;
+     }
+     
+     .getbutton{
+         display: block;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color:azure;
+         border-radius: 10px;
+         width: 120px;
+         height: 40px;
+       
+         margin: 30px 0;
+        background: linear-gradient(180deg, rgba(238,161,179,1) 0%, rgba(253,65,45,1) 100%);
+     
+    
+    }
+    /* .divbutton:hover{
+        /* transform: scale(100px); */
+        transition: 1s;
+        cursor: pointer;
+        /* background-color:#fff; */
+        /* animation-name: toright; */
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        /* color: crimson; 
+    } */
+    .nav_buttom img{
+        
+        margin: 20px 0 0 20px;
+    }
+
+
+
+
+
+
+
+
+
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .card div{
+        width: 500px;
+        height: 650px;
+        margin: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+       
+        color: azure;
+        
+    }
+    .cardleft{
+        background-image: url(../left\ card.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       padding-top: 500px;
+        
+        
+       
+    }
+    .h{
+       padding-left: 30px;  
+        
+    }
+    .cardleft p{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .cardright p{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .cardright{
+        background-image: url(../rigth\ card.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 500px;
+    
+        
+    }

@@ -1,0 +1,156 @@
+
+@media screen and (max-width:1220px) {
+   .card div{
+      width: 400px;
+      height: 550px;
+      margin: 20px 15px;
+  }
+  child1{
+   
+   font-size: 60px;
+}
+.child2{
+  
+
+    font-size: 60px;
+    
+    
+}
+.child3{
+  
+
+   font-size: 25px;
+   
+  
+}
+
+       
+}
+
+@media screen and (max-width:1024px) {
+   .child1{
+      font-size: 47px;
+   }
+   .child2{
+      font-size: 47px;
+   }
+
+       
+}
+@media screen and (max-width:1000px) {
+   .card div{
+      width: 300px;
+      height: 450px;
+     
+  }
+  .cardleft p{
+   font-size: 20px;
+   margin-left: 20px;
+}
+.cardright p{
+   font-size: 20px;
+   margin-left: 25px;
+}
+       
+}
+@media screen and (max-width:850px) {
+   ul{
+       display: none;
+   }
+   .meniu{
+      display: block;
+   }
+   .nav_buttom-text{
+      text-align: center;
+   }
+   /* .getbutton{
+     margin-left: 150PX;
+   } */
+   .divbutton{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .nav_buttom img{
+      margin: 20px 0 0 0;
+  }
+  .nav_button-text{
+   margin:0;
+}
+.nav_buttom{
+   
+   margin-top: 50px;
+}
+
+}
+       
+   @media screen and (max-width:500px) {
+     
+      .child1{
+         font-size: 30px;
+      }
+      .child2{
+         font-size: 30px;
+      }.child3{
+         font-size: 18px;
+      }
+      /* .getbutton{
+         margin-left: 105PX;
+        } */
+        .getbutton{
+         width: 100px;
+         height: 32px;
+    }
+    .card div{
+      width: 300px;
+      height: 450px;
+      margin: 20px 0;
+  }
+  
+  .container{
+   margin-left: 3%;
+   margin-right: 3%;
+}
+   }
+   @media screen and (max-width:350px) {
+      .homeimg{
+        
+   width:250px;
+     }
+     .card div{
+      width: 250px;
+      height: 400px;
+   
+      
+  } 
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @keyframes toright {
+      0%{
+         background: linear-gradient(90deg, blue 1px, 
+         rgba(253,65,45,1) 1px,
+         rgba(253,65,45,1) 100%);
+      }
+      100%{
+         background: linear-gradient(90deg, blue 100%, rgba(253,65,45,1) 1px);
+      }
+   }
